@@ -1,12 +1,9 @@
 .gender{
     margin-left: 500px;
-    color: rgb(224,255,255);
 }
 #birth{
     margin-left: 500px;
     margin-right: 700px;
-    color: rgb(224,255,255);
-
 }
 .container{
     box-shadow: 0px 5px 5px gray;
@@ -16,23 +13,14 @@
   align-items: center;
   width: 500px;
   margin-top: 100px;
-  color: rgb(224,255,255);
+  color: white;
 }
 button{
     margin-left: 700px;
     margin-right: 700px;
-    color: rgb(224,255,255);
 }
-option{
+body{
+    background-image: url("Images/1.jpg");
     color: black;
-}
-*{
-    background-image: url(Images/3.jpeg);
     
-}
-.input-group-append{
-    color: rgb(224,255,255);
-}
-input{
-    color: rgb(224,255,255);
 }
