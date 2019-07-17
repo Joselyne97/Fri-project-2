@@ -6,22 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Birthday calculate!</title>
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <script></script>
 </head>
 <body>
     <div class="container">
         <h2>Birthday calculator:</h2>
         <p>The form below contains two input elements; the first element is where you will fill your Akan's birthday date, month and the year and the second element is where you will select the gender of your Akan so that you can see the name that you can give to him/her:</p>
-        <form action="/action_page.php">
+        <form>
           <div class="form-group">
-            <label for="usr">Name:</label>
-            <input type="text" class="form-control" id="usr" name="username">
+              <div id="birth">
+            <label for="usr">Date of Birth:</label>
+            <input type="date" class="form-control" id="usr" name="username">
+            </div>
           </div>
+
           <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd" name="password">
+            <div class="input-group mb-3">
+                <select class="gender">
+                  <option selected>Select the gender...</option>
+                  <option value="1">Male</option>
+                  <option value="2">Female</option>
+                </select>
+                <div class="input-group-append">
+                  <label class="input-group-text" for="inputGroupSelect02">Gender</label>
+                </div>
+              </div>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+
 </body>
 </html>
