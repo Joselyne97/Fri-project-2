@@ -1,16 +1,19 @@
 function check() {
-var input = document.getElementById(user).value;
+var input = document.getElementById("user").value;
 var d = new Date( input );
 year = d.getFullYear();
 month = d.getMonth();
 month = month+1;
-day@1 = d.getDate();
-var gender = document.forms["birthday"].getElementsByTagName("option");
-
+dayi = d.getDate();
+console.log('year');
+var gender = document.forms["birthday"].getElementsByTagName("select");
+var gender = document.getElementById("selection").form.id;
+  document.getElementById("nom").innerHTML = gender;
+console.log(gender);
 var century= (yyyy-1)/100 + 1;
 var cc=parseFloat(century);
-var day= parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4) ) + ((26*(mm+1)/10)) + dd )) % 7;
-var day=(day.toFixed(0));
+var day= parseFloat(( ((cc/4) -2*cc-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dayi )) % 7;
+var day=day.toFixed(0);
 
 if(day==0 && gender=='male'){
     document.getElementById("nom").innerHTML ="Kwasi";
