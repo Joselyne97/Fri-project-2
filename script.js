@@ -5,11 +5,8 @@ year = d.getFullYear();
 month = d.getMonth();
 month = month+1;
 day@1 = d.getDate();
-document.forms["birthday"].getElementsByTagName("option");
-var dd=parseInt(prompt("Enter the date:"));
-var mm=parseInt(prompt("Enter the month:"));
-var yyyy=parseInt(prompt("Enter the year:"));
-var gender=prompt("Enter the gender:");
+var gender = document.forms["birthday"].getElementsByTagName("option");
+
 var century= (yyyy-1)/100 + 1;
 var cc=parseFloat(century);
 var day= parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4) ) + ((26*(mm+1)/10)) + dd )) % 7;
