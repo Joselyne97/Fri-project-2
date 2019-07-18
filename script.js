@@ -1,3 +1,11 @@
+function check() {
+var input = document.getElementById(user).value;
+var d = new Date( input );
+year = d.getFullYear();
+month = d.getMonth();
+month = month+1;
+day@1 = d.getDate();
+document.forms["birthday"].getElementsByTagName("option");
 var dd=parseInt(prompt("Enter the date:"));
 var mm=parseInt(prompt("Enter the month:"));
 var yyyy=parseInt(prompt("Enter the year:"));
@@ -48,4 +56,5 @@ alert("The name is Afua");
 }
 else if(day==6 && gender=='female'){
 alert("The name is Ama");
+}
 }
