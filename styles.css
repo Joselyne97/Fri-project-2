@@ -23,5 +23,8 @@ body{
     background-image: url("Images/5.jpg");
     height: cover;
     color: rgb(245,255,250);
-    
+         
+}
+*{
+    padding: 3px;
 }
