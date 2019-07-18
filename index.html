@@ -14,28 +14,35 @@
         <h1>Birthday calculator:</h1>
         <p>The form below contains two input elements; the first element is where you will fill your Akan's birthday date, month and the year and the second element is where you will select the gender of your Akan so that you can see the name that you can give to him/her:</p>
         <form>
-          <div class="form-group">
+          <div class="element">
               <div id="birth">
-            <label for="usr">Date of Birth:</label>
-            <input type="date" class="form-control" id="usr" name="username">
+            <label for="user">Date of Birth:</label>
+            <input type="date" class="form-control" id="user" name="username">
             </div>
           </div>
 
-          <div class="form-group">
+          <div class="element">
             <div class="input-group mb-3">
                 <select class="gender">
-                  <option selected>Select the gender...</option>
-                  <option value="1">Male</option>
-                  <option value="2">Female</option>
+                  <option>Select the gender...</option>
+                  <option id="gender">Male</option>
+                  <option id="gender">Female</option>
                 </select>
                 <div class="input-group-append">
-                    <div class="mf">
+                    
                   <label class="input-group-text" for="inputGroupSelect02">Gender</label>
-                </div>
+                
                 </div>
               </div>
+              <div class="element">
+                    <div id="birth">
+                  <label for="user">Name is:</label>
+                  <p id="nee"></p>
+                  </div>
+                </div>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <button type="submit" onclick="Check()" class="btn btn-primary">Submit</button>
         </form>
 
 </body>
