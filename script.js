@@ -13,45 +13,45 @@ var day= parseFloat(( ((cc/4) -2*cc-1) + ((5*yyyy/4) ) + ((26*(mm+1)/10)) + dd )
 var day=(day.toFixed(0));
 
 if(day==0 && gender=='male'){
-alert("The name is Kwasi");
+    document.getElementById("nom").innerHTML ="Kwasi";
 }
 else if(day==1 && gender=='male'){
-alert("The name is Kwadwo");
+    document.getElementById("nom").innerHTML ="Kwadwo";
 }
 else if(day==2 && gender=='male'){
-alert("The name is Kwabena")
+    document.getElementById("nom").innerHTML ="Kwabena";
 }
 else if(day==3 && gender=='male'){
-alert("The name is Kwaku");
+    document.getElementById("nom").innerHTML ="Kwaku";
 }
 else if(day==4 && gender=='male'){
-alert("The name is Yaw");
+    document.getElementById("nom").innerHTML ="Yaw";
 }
 else if(day==5 && gender=='male'){
-alert("The name is  Kofi");
+    document.getElementById("nom").innerHTML ="Kofi";
 }
 else if(day==6 && gender=='male'){
-alert("The name is Kwame");
+    document.getElementById("nom").innerHTML ="Kwame";
 }
 else if(day==0 && gender=='female'){
-alert("The name is Akosua");
+    document.getElementById("nom").innerHTML ="Akosua";
 }
 else if(day==1 && gender=='female'){
-alert("The name is Adwoa");
+    document.getElementById("nom").innerHTML ="Adwoa";
 }
 else if(day==2 && gender=='female'){
-alert("The name is Abenaa");
+    document.getElementById("nom").innerHTML ="Abenaa";
 }
 else if(day==3 && gender=='female'){
-alert("The name is Akua");
+    document.getElementById("nom").innerHTML ="Akua";
 }
 else if(day==4 && gender=='female'){
-alert("The name is Yaa");
+    document.getElementById("nom").innerHTML ="Yaa";
 }
 else if(day==5 && gender=='female'){
-alert("The name is Afua");
+    document.getElementById("nom").innerHTML ="Afua";
 }
 else if(day==6 && gender=='female'){
-alert("The name is Ama");
+    document.getElementById("nom").innerHTML ="Ama";
 }
 }
