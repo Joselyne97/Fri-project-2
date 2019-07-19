@@ -23,7 +23,8 @@ LinkedIn: Joselyne MPAYIMANA;
  2. styles.css
  3. bootstrap.css
  4. script.js
-
+ 5. week2.md
+ 
  ## The link to live site on GitHub Pages is :
 
  .....
