@@ -13,7 +13,7 @@ var day= parseFloat(( ((cc/4) -2*cc-1) + ((5*year/4) ) + ((26*(month+1)/10)) + d
 var day=day.toFixed(0);
 
 if(input='' || gender =='' ){
-    document.getElementById('nom').innerHTML ='please enter the values';
+    document.getElementById('nom').innerHTML ='you can enter the the information required';
 }
 else if(day==0 && gender=='Male'){
     document.getElementById('nom').innerHTML ='Kwasi';
