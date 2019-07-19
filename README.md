@@ -8,10 +8,10 @@ Joselyne MPAYIMANA
 
 ## Contact information:
 
-Tel: (250)787753215;
-Email: joselynejojo740@gmail.com;
-Facebook: Joselyne M.JOJO;
-LinkedIn: Joselyne MPAYIMANA;
+1. Tel: (250)787753215;
+2. Email: joselynejojo740@gmail.com;
+3. Facebook: Joselyne M.JOJO;
+4. LinkedIn: Joselyne MPAYIMANA;
 
 ## Project description:
 
