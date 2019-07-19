@@ -23,11 +23,11 @@ Joselyne MPAYIMANA
  2. styles.css
  3. bootstrap.css
  4. script.js
- 5. week2.md
+ 5. README.md
  
  ## The link to live site on GitHub Pages is :
 
- .....
+ https://joselyne97.github.io/Fri-project-2/
 
  ## Copyright and license information:
 
