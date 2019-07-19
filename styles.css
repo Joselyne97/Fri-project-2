@@ -1,4 +1,4 @@
-.gender{
+#selection{
     margin-left: 500px;
 }
 #birth{
@@ -15,7 +15,7 @@
   margin-top: 100px;
   
 }
-button{
+input[type=button]{
     margin-left: 700px;
     margin-right: 700px;
 }

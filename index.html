@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,7 @@
           <div class="element">
               <div id="birth">
             <label for="user">Date of Birth:</label>
-            <input type="date" class="form-control" id="user" name="username">
+            <input type="date" class="form-control" id="user">
             </div>
           </div>
 
@@ -25,8 +26,8 @@
             <div class="input-group mb-3">
                 <select id="selection">
                   <option>Select the gender...</option>
-                  <option id="gender">Male</option>
-                  <option id="gender">Female</option>
+                  <option id="gend" value="Male">Male</option>
+                  <option id="gend" value="Female">Female</option>
                 </select>
                 <div class="input-group-append">
                     
@@ -37,13 +38,13 @@
               <div class="element">
                     <div id="birth">
                   <label for="user">The name can be:</label>
-                  <p id="nee"></p>
+                  <p id="nom"></p>
                   </div>
                 </div>
           </div>
 
-          <button type="submit" onclick="check()" class="btn btn-primary">check</button>
-        
-</form>
+          <input type="button" value="check" onclick="check()" class="btn btn-primary">
+        </form>
+
 </body>
 </html>
